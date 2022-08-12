@@ -3,51 +3,64 @@
 /* font-family: 'Roboto Mono', monospace; */
 
 @import url('https://fonts.googleapis.com/css2?family=Inspiration&display=swap');
-.navbar-brand{
+
+.navbar-brand {
     font-size: 28px;
     font-weight: 700;
 }
-*{
-    font-family:'Roboto Mono', monospace; 
+
+* {
+    font-family: 'Roboto Mono', monospace;
 }
-.imgs{
+
+.imgs {
     height: 500px;
     width: 100%;
     border-radius: 20px;
 }
-.nav-link{
-    color:#f6f8f8;
+
+.nav-link {
+    color: #f6f8f8;
     font-size: 20px;
     font-weight: 500;
 }
-.nav-link:hover{
-color: brown;
-background-color: #4bc5b8;
-}
-#main_header{
-    background-color:#f6f8f8;
-}
-.nav_section{
-    background-color:#D2EFEF;
-}
-.navbar-brand{
-    font-family: "Sofia", sans-serif;
-}
-/*navber end*/
-#carosel_section{
-    background-color:#D2EFEF;
-    margin-top: 65px;
-}
-.actives{
+
+.nav-link:hover {
+    color: brown;
     background-color: #4bc5b8;
 }
-.banner_content{
+
+#main_header {
+    background-color: #f6f8f8;
+}
+
+.nav_section {
+    background-color: #D2EFEF;
+}
+
+.navbar-brand {
+    font-family: "Sofia", sans-serif;
+}
+
+/*navber end*/
+#carosel_section {
+    background-color: #D2EFEF;
+    margin-top: 65px;
+}
+
+.actives {
+    background-color: #4bc5b8;
+}
+
+.banner_content {
     margin-left: 140px;
 }
-.banner_content h1{
+
+.banner_content h1 {
     font-weight: 500;
 }
-.btn-cmn{
+
+.btn-cmn {
     position: absolute;
     top: auto;
     bottom: 10px;
@@ -57,32 +70,77 @@ background-color: #4bc5b8;
     height: 60px;
     padding: 5px;
 }
-.btn-cmn i{
+
+.btn-cmn i {
     color: brown;
 }
-.btn_hr:hover{
-    background-color:#4bc5b8;
+
+.btn_hr:hover {
+    background-color: #4bc5b8;
 }
+
 /*carocel end*/
-#about_section{
+#about_section {
     margin-top: 75px;
 }
-.text_center{
+
+.text_center {
     left: 50%;
     right: 50%;
 }
-.about_img{
+
+.about_img {
     width: 100%;
     height: auto;
     border-radius: 15px;
 }
-.no{
+
+.no {
     text-decoration: line-through;
 }
-.card:hover{
+
+.card:hover {
     background-color: aqua;
 }
-.ss:hover{
+
+.ss:hover {
     background-color: brown;
     color: brown;
+}
+
+/*about end*/
+#srevices_section {
+    background: url(../img/bg-1.jpg)no-repeat;
+    background-size: cover;
+    color: #f6f8f8;
+}
+
+.s_img {
+    height: 275px;
+    width: 100%;
+    margin: 65px 0;
+}
+
+/*srevices end #252525*/
+
+#contact_section {
+    background-color: #4bc5b8;
+}
+
+.bttn {
+    border-radius: 15px;
+    background-color: #c54b68;
+    margin-bottom: 25px !important;
+}
+.Email_text{
+    border-radius: 10px;
+}
+.contact_img{
+    width: 100%;
+    height: auto;
+}
+/* contact end*/
+#footer_scetion{
+    background-color:#252525;
+    border: 3px solid #0f9458;
 }
